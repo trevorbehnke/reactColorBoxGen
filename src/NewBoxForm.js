@@ -54,7 +54,7 @@ export default class NewBoxForm extends Component {
             id="color"
           />
         </div>
-        <button>Add New Box!</button>
+        <button>Add New Box</button>
       </form>
     );
   }
