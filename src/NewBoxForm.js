@@ -25,7 +25,7 @@ export default class NewBoxForm extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <div className="input-container">
-          <label htmlFor="height">Height:</label>
+          <label htmlFor="height">Height: </label>
           <input
             type="text"
             name="height"
@@ -35,7 +35,7 @@ export default class NewBoxForm extends Component {
           />
         </div>
         <div className="input-container">
-          <label htmlFor="width">Width:</label>
+          <label htmlFor="width">Width: </label>
           <input
             type="text"
             name="width"
@@ -45,7 +45,7 @@ export default class NewBoxForm extends Component {
           />
         </div>
         <div className="input-container">
-          <label htmlFor="color">Color:</label>
+          <label htmlFor="color">Color: </label>
           <input
             type="text"
             name="color"

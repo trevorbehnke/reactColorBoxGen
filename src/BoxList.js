@@ -35,7 +35,7 @@ export default class BoxList extends Component {
     ));
     return (
       <div className="container">
-        <h1>Color Box Maker Thingy</h1>
+        <h1>Color Box Generator</h1>
         <NewBoxForm createBox={this.create} />
         {boxes}
       </div>
